@@ -117,6 +117,11 @@ Next, review the output of the provisioning process.
 
 Notice that the **instructions** property value contains the contents of the **instruction.txt** file. The **declarativeAgent.dev.json** file is included in the **appPackage.dev.zip** file along with the **manifest.dev.json**, **color.png**, and **outline.png** files. The **appPackage.dev.zip** file is uploaded to Microsoft 365.
 
+> [!IMPORTANT]
+> After logging into your Microsoft 365 account, you may see the following warnings or error messages in Visual Studio Code. If you've just enabled custom app uploads in Microsoft Teams, it can take some time for the setting to take effect.  Wait a few minutes and try again, or log out and log back in with your Microsoft 365 account. The second message about Microsoft 365 Copilot access is expected, since the tenant doesn't have a full Copilot license.
+> 
+> ![Screenshot of Visual Studio Code warnings.](../media/LAB_01/ttk-login-errors.png)
+
 ## Task 6 - Test the declarative agent in Microsoft 365 Copilot Chat
 
 Next, let’s run the declarative agent in Microsoft 365 Copilot Chat and validate its functionality.
