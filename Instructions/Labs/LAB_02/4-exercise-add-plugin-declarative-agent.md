@@ -59,7 +59,7 @@ In Visual Studio Code:
 1. Update the declarative agent information:
     1. Open the **appPackage/declarativeAgent.json** file.
     1. Update the value of the **name** property to **Il Ristorante**.
-    1. Update the value of the **description** property to **Order the most delicious Italian dishes and drinks from the comfort of your desk.**.
+    1. Update the value of the **description** property to **Order the most delicious Italian dishes and drinks from the comfort of your desk.**
     1. Save the changes.
 1. Update declarative agent's instructions:
     1. Open the **appPackage/instruction.txt** file.
@@ -122,6 +122,7 @@ In Visual Studio Code:
     > To preserve formatting, you may need to perform multiple copy/paste operations into Notepad before copying into Visual Studio Code.
 
     1. Save the changes.
+
 1. To help users, understand what they can use the agent for, add conversation starters:
     1. Open the **appPackage/declarativeAgent.json** file.
     1. After the **instructions** property, add a new property named **conversation_starters**:
