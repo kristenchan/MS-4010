@@ -84,7 +84,7 @@ The starter project contains a Teams Toolkit project that includes a declarative
 1. Open the project folder in Visual Studio Code.
 1. In the project root folder, open **README.md** file. Examine the contents for more information about the project structure.
 
-![Screenshot of Visual Studio Code that shows the starter project readme file and folder structure in the Explorer view.](../media/LAB_01/create-complete.png)
+![Screenshot of Visual Studio Code that shows the starter project readme file and folder structure in the Explorer view.](/media/LAB_01/create-complete.png)
 
 ## Task 3 - Examine declarative agent manifest
 
@@ -139,21 +139,21 @@ In Visual Studio Code:
 
 1. In the **Activity Bar**, open the **Teams Toolkit** extension.
 
-    ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
+    ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](/media/LAB_01/teams-toolkit-open.png)
 
 1. In the **Lifecycle** section, select **Provision**.
 
-    ![Screenshot of Visual Studio Code showing the Teams Toolkit view. The 'Provision' function is highlighted in the Lifecycle section.](../media/LAB_01/provision.png)
+    ![Screenshot of Visual Studio Code showing the Teams Toolkit view. The 'Provision' function is highlighted in the Lifecycle section.](/media/LAB_01/provision.png)
 
 1. In the prompt, select **Sign in** and follow the prompts to sign in to your Microsoft 365 tenant using Teams Toolkit. The provisioning process starts automatically after you sign in.
 
-    ![Screenshot of a prompt from Visual Studio Code asking the user to sign in to Microsoft 365. The Sign in button is highlighted.](../media/LAB_01/provision-sign-in.png)
+    ![Screenshot of a prompt from Visual Studio Code asking the user to sign in to Microsoft 365. The Sign in button is highlighted.](/media/LAB_01/provision-sign-in.png)
 
-    ![Screenshot of Visual Studio Code showing the provisioning process in progress. Provisioning in progress message is highlighted.](../media/LAB_01/provision-in-progress.png)
+    ![Screenshot of Visual Studio Code showing the provisioning process in progress. Provisioning in progress message is highlighted.](/media/LAB_01/provision-in-progress.png)
 
 1. Wait for the upload to complete before continuing.
 
-    ![Screenshot of Visual Studio Code showing a toast notification confirming the provisioning process is complete. The toast notification is highlighted.](../media/LAB_01/provision-complete.png)
+    ![Screenshot of Visual Studio Code showing a toast notification confirming the provisioning process is complete. The toast notification is highlighted.](/media/LAB_01/provision-complete.png)
 
 Next, review the output of the provisioning process.
 
@@ -164,7 +164,7 @@ Notice that the **instructions** property value contains the contents of the **i
 > [!IMPORTANT]
 > After logging into your Microsoft 365 account, you may see the following warnings or error messages in Visual Studio Code. If you've just enabled custom app uploads in Microsoft Teams, it can take some time for the setting to take effect.  Wait a few minutes and try again, or log out and log back in with your Microsoft 365 account. The second message about Microsoft 365 Copilot access is expected, since the tenant doesn't have a full Copilot license.
 > 
-> ![Screenshot of Visual Studio Code warnings.](../media/LAB_01/ttk-login-errors.png)
+> ![Screenshot of Visual Studio Code warnings.](/media/LAB_01/ttk-login-errors.png)
 
 ## Task 6 - Test the declarative agent in Microsoft 365 Copilot Chat
 
@@ -172,7 +172,7 @@ Next, let’s run the declarative agent in Microsoft 365 Copilot Chat and valida
 
 1. In the **Activity Bar**, open the **Teams Toolkit** extension.
 
-    ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](../media/LAB_01/teams-toolkit-open.png)
+    ![Screenshot of Visual Studio Code. The Teams Toolkit icon is highlighted on the Activity Bar.](/media/LAB_01/teams-toolkit-open.png)
 
 1. In the **Lifecycle** section, select **Publish**. Wait for the actions to complete.
 
@@ -184,7 +184,7 @@ Next, let’s run the declarative agent in Microsoft 365 Copilot Chat and valida
 
 1. Ask the agent **What can you do?** and submit the prompt.
 
-    ![Screenshot of Microsoft Edge showing Microsoft 365 Copilot. The icon to open the side panel and the Product support agent in the panel are highlighted.](../media/LAB_01/test-immersive-side-panel.png)
+    ![Screenshot of Microsoft Edge showing Microsoft 365 Copilot. The icon to open the side panel and the Product support agent in the panel are highlighted.](/media/LAB_01/test-immersive-side-panel.png)
 
 Continue on to the next exercise.
 
@@ -285,14 +285,14 @@ First, let's test the instructions:
 1. Ask the Product Support agent **What can you do?** and submit the prompt.
 1. Wait for the response. Notice how the response is different from the previous instructions and reflects the new instructions.
 
-    ![Screenshot of Microsoft Edge showing Microsoft 365 Copilot. A response from the Microsoft 365 Knowledge Expert agent is displayed explaining its capabilities.](../media/LAB_01/test-m365-knowledge-expert.png)
+    ![Screenshot of Microsoft Edge showing Microsoft 365 Copilot. A response from the Microsoft 365 Knowledge Expert agent is displayed explaining its capabilities.](/media/LAB_01/test-m365-knowledge-expert.png)
 
 Next, let's test the grounding data.
 
 1. In the message box, enter **Tell me about Information Protection** and send the message.
 1. Wait for the response. Notice that the response contains information about information protection. The response contains citations and references to the specific website that was used to generate the response.
 
-    ![Screenshot of Microsoft Edge showing Microsoft 365 Copilot. A response from the Microsoft 365 Knowledge Expert agent is displayed with information about Information Protection in Microsoft 365.](../media/LAB_01/test-m365-knowledge-expert-1.png)
+    ![Screenshot of Microsoft Edge showing Microsoft 365 Copilot. A response from the Microsoft 365 Knowledge Expert agent is displayed with information about Information Protection in Microsoft 365.](/media/LAB_01/test-m365-knowledge-expert-1.png)
 
 Let's try a few more prompts:
 
@@ -410,7 +410,7 @@ Continuing in the web browser:
 1. In **Microsoft 365 Copilot**, select the icon in the top right to expand the **Copilot side panel**.
 1. Find **Product support** in the list of agents and select it to enter the immersive experience to chat directly with the agent. Notice that the conversation starters you defined in the manifest display in the user interface.
 
-![Screenshot of Microsoft Edge showing the Microsoft 365 Knowledge Expert declarative agent in the immersive experience with custom conversation starters.](../media/LAB_01/test-conversation-starters.png)
+![Screenshot of Microsoft Edge showing the Microsoft 365 Knowledge Expert declarative agent in the immersive experience with custom conversation starters.](/media/LAB_01/test-conversation-starters.png)
 
 Close the browser to stop the debug session in Visual Studio Code.
 

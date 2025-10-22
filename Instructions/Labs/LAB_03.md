@@ -21,7 +21,7 @@ In this module, you extend an existing API plugin for a declarative agent to ren
 - **Configure**: Configure the API plugin to render the data using the Adaptive Card template.
 - **Provision**: Upload your declarative agent to Microsoft 365 Copilot and validate the results.
 
-![Screenshot of a declarative agent that responds to a user with information from an external API using an Adaptive Card.](../media/LAB_03/1-agent-response-adaptive-card-dish.png)
+![Screenshot of a declarative agent that responds to a user with information from an external API using an Adaptive Card.](/media/LAB_03/1-agent-response-adaptive-card-dish.png)
 
 ## Lab Duration
 
@@ -79,7 +79,7 @@ In Visual Studio Code:
 1. Before you continue, from the **Extensions** tab of the activity bar, search for and install the **Adaptive Card Previewer** extension and then create a data file for the Adaptive Card:
   1. Open the command palette by pressing <kbd>CTRL</kbd>+<kbd>P</kbd> on the keyboard. Type `>Adaptive` to find commands related to working with Adaptive Cards.
 
-    ![Screenshot of Visual Studio Code showing commands related to working with Adaptive Cards.](../media/LAB_03/3-visual-studio-code-adaptive-card-commands.png)
+    ![Screenshot of Visual Studio Code showing commands related to working with Adaptive Cards.](/media/LAB_03/3-visual-studio-code-adaptive-card-commands.png)
 
   1. From the list, choose **Adaptive Card: New Data File**. Visual Studio Code creates a new file named **dish.data.json**.
   1. Replace its contents with a data that represents a dish:
@@ -103,7 +103,7 @@ In Visual Studio Code:
 1. Go back to the **dish.json** file.
 1. From the lens, select **Preview Adaptive Card**.
 
-  ![Screenshot of Visual Studio Code showing the Adaptive Card preview.](../media/LAB_03/3-visual-studio-code-adaptive-card-preview.png)
+  ![Screenshot of Visual Studio Code showing the Adaptive Card preview.](/media/LAB_03/3-visual-studio-code-adaptive-card-preview.png)
 
   Visual Studio Code opens a preview of the card to the side. As you're editing the card, your changes are immediately visible on the side.
 
@@ -124,7 +124,7 @@ In Visual Studio Code:
 
   Notice how the card preview automatically updates to show your card:
 
-  ![Screenshot of Visual Studio Code showing the Adaptive Card preview with an image.](../media/LAB_03/3-visual-studio-code-adaptive-card-preview-image.png)
+  ![Screenshot of Visual Studio Code showing the Adaptive Card preview with an image.](/media/LAB_03/3-visual-studio-code-adaptive-card-preview-image.png)
 
 1. Add references to other dish properties. The complete card looks as follows:
 
@@ -169,7 +169,7 @@ In Visual Studio Code:
   }
   ```
 
-  ![Screenshot of Visual Studio Code showing the preview of an Adaptive Card of a dish.](../media/LAB_03/3-visual-studio-code-adaptive-card-preview-image-properties.png)
+  ![Screenshot of Visual Studio Code showing the preview of an Adaptive Card of a dish.](/media/LAB_03/3-visual-studio-code-adaptive-card-preview-image-properties.png)
 
   Notice that to display allergens you use a function to join the allergens into a string. If a dish doesn't have allergens, you display **none**. To ensure that prices are properly formatted, you use the **formatNumber** function that allows us to specify the number of decimals to show on the card.
 
@@ -193,7 +193,7 @@ In Visual Studio Code:
 1. Create a data file for the Adaptive Card:
   1. Open the command palette by pressing <kbd>CTRL</kbd>+<kbd>P</kbd> (<kbd>CMD</kbd>+<kbd>P</kbd> on macOS) on the keyboard. Type `>Adaptive` to find commands related to working with Adaptive Cards.
 
-    ![Screenshot of Visual Studio Code showing commands related to working with Adaptive Cards.](../media/LAB_03/3-visual-studio-code-adaptive-card-commands.png)
+    ![Screenshot of Visual Studio Code showing commands related to working with Adaptive Cards.](/media/LAB_03/3-visual-studio-code-adaptive-card-commands.png)
 
   1. From the list, choose **Adaptive Card: New Data File**. Visual Studio Code creates a new file named **order.data.json**.
   1. Replace its contents with a data that represents the order summary:
@@ -258,12 +258,12 @@ In Visual Studio Code:
 
   Just like in the previous section, you map each element on the card to a data property.
 
-  ![Screenshot of Visual Studio Code showing the Adaptive Card preview of an order.](../media/LAB_03/3-visual-studio-code-adaptive-card-preview-order.png)
+  ![Screenshot of Visual Studio Code showing the Adaptive Card preview of an order.](/media/LAB_03/3-visual-studio-code-adaptive-card-preview-order.png)
 
   > [!IMPORTANT]
   > Notice the trailing space after **${order_id}**. This is intentional, because of a known issue with Adaptive Cards rendering numbers. To test it, remove the space and see that the number disappears from the preview.
   >
-  > ![Screenshot of Visual Studio Code showing a preview of an Adaptive Card without the order number.](../media/LAB_03/3-visual-studio-code-adaptive-card-preview-no-number.png)
+  > ![Screenshot of Visual Studio Code showing a preview of an Adaptive Card without the order number.](/media/LAB_03/3-visual-studio-code-adaptive-card-preview-no-number.png)
 
   Restore the trailing space so that your card shows properly and save your changes.
 
@@ -412,12 +412,12 @@ In Visual Studio Code:
 1. From the **Activity Bar**, choose **Teams Toolkit**.
 1. In the **Accounts** section, ensure that you're signed in to your Microsoft 365 tenant with Microsoft 365 Copilot.
 
-    ![Screenshot of the Teams Toolkit accounts section in Visual Studio Code.](../media/LAB_03/3-teams-toolkit-accounts.png)
+    ![Screenshot of the Teams Toolkit accounts section in Visual Studio Code.](/media/LAB_03/3-teams-toolkit-accounts.png)
 
 1. From the **Activity Bar**, choose **Run and Debug**.
 1. Select the **Debug in Copilot** configuration and start debugging using the **Start Debugging** button.  
 
-    ![Screenshot of the Debug in Copilot configuration in Visual Studio Code.](../media/LAB_03/3-visual-studio-code-start-debugging.png)
+    ![Screenshot of the Debug in Copilot configuration in Visual Studio Code.](/media/LAB_03/3-visual-studio-code-start-debugging.png)
 
 1. Visual Studio Code builds and deploys your project to your Microsoft 365 tenant and opens a new web browser window.
 
@@ -428,33 +428,33 @@ In the web browser:
 1. When prompted, sign in with the account that belongs to your Microsoft 365 tenant with Microsoft 365 Copilot.
 1. From the side bar, select **Il Ristorante**.
 
-    ![Screenshot of the Microsoft 365 Copilot interface with the Il Ristorante agent selected.](../media/LAB_03/3-copilot-select-agent.png)
+    ![Screenshot of the Microsoft 365 Copilot interface with the Il Ristorante agent selected.](/media/LAB_03/3-copilot-select-agent.png)
 
 1. Choose the **What's for lunch today?** conversation starter and submit the prompt.
 
-    ![Screenshot of the Microsoft 365 Copilot interface with the lunch prompt.](../media/LAB_03/3-copilot-lunch-prompt.png)
+    ![Screenshot of the Microsoft 365 Copilot interface with the lunch prompt.](/media/LAB_03/3-copilot-lunch-prompt.png)
 
 1. When prompted, examine the data that the agent sends to the API and confirm using the **Allow once** button.
 
-    ![Screenshot of the Microsoft 365 Copilot interface with the lunch confirmation.](../media/LAB_03/3-copilot-lunch-confirm.png)
+    ![Screenshot of the Microsoft 365 Copilot interface with the lunch confirmation.](/media/LAB_03/3-copilot-lunch-confirm.png)
 
 1. Wait for the agent to respond. Notice that the popup on a citation now includes your custom Adaptive Card with additional information from the API.
 
-    ![Screenshot of the Microsoft 365 Copilot interface with the lunch response.](../media/LAB_03/3-copilot-lunch-response.png)
+    ![Screenshot of the Microsoft 365 Copilot interface with the lunch response.](/media/LAB_03/3-copilot-lunch-response.png)
 
 1. Place an order, by typing in the prompt text box: **1x spaghetti, 1x iced tea** and submit the prompt.
 1. Examine the data that the agent sends to the API and continue using the **Confirm** button.
 
-    ![Screenshot of the Microsoft 365 Copilot interface with the order confirmation.](../media/LAB_03/3-copilot-order-confirm.png)
+    ![Screenshot of the Microsoft 365 Copilot interface with the order confirmation.](/media/LAB_03/3-copilot-order-confirm.png)
 
 1. Wait for the agent to place the order and return the order summary. Notice, that because the API returns a single item, the agent renders it using an Adaptive Card and includes the card directly in its response.
 
-    ![Screenshot of the Microsoft 365 Copilot interface with the order response.](../media/LAB_03/3-copilot-order-response.png)
+    ![Screenshot of the Microsoft 365 Copilot interface with the order response.](/media/LAB_03/3-copilot-order-response.png)
 
 1. Go back to Visual Studio Code and stop debugging.
 1. Switch to the **Terminal** tab and close all active terminals.
 
-    ![Screenshot of the Visual Studio Code terminal tab with the option to close all terminals.](../media/LAB_03/3-visual-studio-code-close-terminal.png)
+    ![Screenshot of the Visual Studio Code terminal tab with the option to close all terminals.](/media/LAB_03/3-visual-studio-code-close-terminal.png)
 
 
 

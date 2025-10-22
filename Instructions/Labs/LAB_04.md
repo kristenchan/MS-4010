@@ -61,7 +61,7 @@ In Visual Studio Code:
 1. In the **Accounts** pane, confirm that you're connected to your **Microsoft 365 tenant**.
 1. In the **Accounts** pane, confirm that you're connected to your **Azure subscription**.
 
-    ![Screenshot of Teams Toolkit showing signed in accounts.](../media/LAB_04/3-teams-toolkit-accounts.png)
+    ![Screenshot of Teams Toolkit showing signed in accounts.](/media/LAB_04/3-teams-toolkit-accounts.png)
 
 > [!NOTE]
 > If you do not a full Microsoft 365 Copilot license, you may see that "Copilot Access Disabled." The exercises can still be completed, although you may not be able to fully test the agent in Microsoft 365 Copilot Chat.
@@ -75,16 +75,16 @@ In Visual Studio Code:
 
 1. Before the Graph connector can run, you need to consent to the permissions that the Entra app needs. To grant consent, use the instructions from the **Terminal** pane associated with the **func: host start** task.
 
-    ![Screenshot of Visual Studio Code showing the permissions consent message.](../media/LAB_04/3-consent-message.png)
+    ![Screenshot of Visual Studio Code showing the permissions consent message.](/media/LAB_04/3-consent-message.png)
 
 1. Open the consent URL in a web browser. Sign in with your work account that belongs to your Microsoft 365 tenant. Grant the required permissions to the app using the **Grant admin consent** button.
 
-    ![Screenshot of the Microsoft Entra ID portal where a user can grant consent.](../media/LAB_04/3-consent-microsoft-entra-id.png)
+    ![Screenshot of the Microsoft Entra ID portal where a user can grant consent.](/media/LAB_04/3-consent-microsoft-entra-id.png)
 
 1. After you grant consent to the required permissions, the Graph connector continues. In the **Terminal** pane, notice the output of the Graph connector. The Graph connector creates an external connection, provisions the schema and ingests the sample content to your Microsoft 365 tenant.
 1. Running the connector takes 5-10 minutes to complete. When it completes, stop debugging, by pressing the **Stop** button in the debug toolbar.
 
-    ![Screenshot of Visual Studio Code terminal with Graph connector output.](../media/LAB_04/3-connector-done.png)
+    ![Screenshot of Visual Studio Code terminal with Graph connector output.](/media/LAB_04/3-connector-done.png)
 
 
 
@@ -236,7 +236,7 @@ In a web browser:
 1. In the chat text box, ask `What's the acceptable use policy at Contoso?`.
 1. Wait for the agent to respond. Notice how the reply includes references to external content that the Graph connector ingested. The URL in each reference points to the location in the external system where the content is stored.
 
-    ![Screenshot of Microsoft 365 Copilot responding to a user's prompt.](../media/LAB_04/3-copilot-response.png)
+    ![Screenshot of Microsoft 365 Copilot responding to a user's prompt.](/media/LAB_04/3-copilot-response.png)
 
 
 You're looking into building a solution for your organization to answer your colleagues' questions about IT policies. The solution must use authoritative information stored in the policies management system.

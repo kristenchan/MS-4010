@@ -8,7 +8,7 @@ lab:
 
 Microsoft 365 Copilot agents let you create AI-powered assistants optimized for specific scenarios. Using instructions, you define the context for the agent and specify settings such as tone of voice or how it should respond. By configuring the agent's skills, you give it the ability to interact with external systems, trigger certain behavior under system conditions, or use custom workflow logic. One type of skill is actions that allow a declarative agent to communicate with APIs both for retrieving and modifying data.
 
-![Diagram that shows the anatomy of a declarative agent for Microsoft 365 Copilot.](../media/LAB_02/1-anatomy-declarative-agent.png)
+![Diagram that shows the anatomy of a declarative agent for Microsoft 365 Copilot.](/media/LAB_02/1-anatomy-declarative-agent.png)
 
 ## Example scenario
 
@@ -23,7 +23,7 @@ In this module, you build an action for a declarative agent with an API plugin. 
 - **Extend**: Extend a declarative agent with an action using an API plugin.
 - **Provision**: Upload your declarative agent to Microsoft 365 Copilot and validate the results.
 
-![Screenshot of a declarative agent that responds to a user with information from an external API.](../media/LAB_02/1-agent-response-api-plugin.png)
+![Screenshot of a declarative agent that responds to a user with information from an external API.](/media/LAB_02/1-agent-response-api-plugin.png)
 
 ## Lab Duration
 
@@ -705,12 +705,12 @@ In Visual Studio Code:
 1. From the **Activity Bar**, choose **Teams Toolkit**.
 1. In the **Accounts** section, ensure that you're signed in to your Microsoft 365 tenant with Microsoft 365 Copilot.
 
-  ![Screenshot of the Teams Toolkit accounts section in Visual Studio Code.](../media/LAB_02/3-teams-toolkit-accounts.png)
+  ![Screenshot of the Teams Toolkit accounts section in Visual Studio Code.](/media/LAB_02/3-teams-toolkit-accounts.png)
 
 1. From the **Activity Bar**, choose **Run and Debug**.
 1. Select the **Debug in Copilot** configuration and start debugging using the **Start Debugging** button.  
 
-  ![Screenshot of the Debug in Copilot configuration in Visual Studio Code.](../media/LAB_02/3-visual-studio-code-start-debugging.png)
+  ![Screenshot of the Debug in Copilot configuration in Visual Studio Code.](/media/LAB_02/3-visual-studio-code-start-debugging.png)
 
 1. Visual Studio Code builds and deploys your project to your Microsoft 365 tenant and opens a new web browser window.
 
@@ -719,33 +719,33 @@ In the web browser:
 1. When prompted, sign in with the account that belongs to your Microsoft 365 tenant with Microsoft 365 Copilot.
 1. From the side bar, select **Il Ristorante**.
 
-  ![Screenshot of the Microsoft 365 Copilot interface with the Il Ristorante agent selected.](../media/LAB_02/3-copilot-select-agent.png)
+  ![Screenshot of the Microsoft 365 Copilot interface with the Il Ristorante agent selected.](/media/LAB_02/3-copilot-select-agent.png)
 
 1. Choose the **What's for lunch today?** conversation starter and submit the prompt.
 
-  ![Screenshot of the Microsoft 365 Copilot interface with the lunch prompt.](../media/LAB_02/3-copilot-lunch-prompt.png)
+  ![Screenshot of the Microsoft 365 Copilot interface with the lunch prompt.](/media/LAB_02/3-copilot-lunch-prompt.png)
 
 1. When prompted, examine the data that the agent sends to the API and confirm using the **Allow once** button.
 
-  ![Screenshot of the Microsoft 365 Copilot interface with the lunch confirmation.](../media/LAB_02/3-copilot-lunch-confirm.png)
+  ![Screenshot of the Microsoft 365 Copilot interface with the lunch confirmation.](/media/LAB_02/3-copilot-lunch-confirm.png)
 
 1. Wait for the agent to respond. Notice that while it shows citations for the information it retrieves from the API, the popup only shows the dish's title. It doesn't show any additional information, because the API plugin doesn't define an Adaptive Card template.
 
-  ![Screenshot of the Microsoft 365 Copilot interface with the lunch response.](../media/LAB_02/3-copilot-lunch-response.png)
+  ![Screenshot of the Microsoft 365 Copilot interface with the lunch response.](/media/LAB_02/3-copilot-lunch-response.png)
 
 1. Place an order, by typing in the prompt text box: **1x spaghetti, 1x iced tea** and submit the prompt.
 1. Examine the data that the agent sends to the API and continue using the **Confirm** button.
 
-  ![Screenshot of the Microsoft 365 Copilot interface with the order confirmation.](../media/LAB_02/3-copilot-order-confirm.png)
+  ![Screenshot of the Microsoft 365 Copilot interface with the order confirmation.](/media/LAB_02/3-copilot-order-confirm.png)
 
 1. Wait for the agent to place the order and return the order summary. Once again, notice that the agent shows the order summary in plain text because it doesn't have an Adaptive Card template.
 
-  ![Screenshot of the Microsoft 365 Copilot interface with the order response.](../media/LAB_02/3-copilot-order-response.png)
+  ![Screenshot of the Microsoft 365 Copilot interface with the order response.](/media/LAB_02/3-copilot-order-response.png)
 
 1. Go back to Visual Studio Code and stop debugging.
 1. Switch to the **Terminal** tab and close all active terminals.
 
-  ![Screenshot of the Visual Studio Code terminal tab with the option to close all terminals.](../media/LAB_02/3-visual-studio-code-close-terminal.png)
+  ![Screenshot of the Visual Studio Code terminal tab with the option to close all terminals.](/media/LAB_02/3-visual-studio-code-close-terminal.png)
 
 You're looking into building a solution for your organization that allows you to order food from a local restaurant. The solution must use natural language and integrate with Microsoft 365 Copilot.
 
